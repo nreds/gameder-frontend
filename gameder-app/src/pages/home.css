@@ -1,0 +1,121 @@
+.get-started-container {
+    background-color: var(--color-base);
+}
+
+
+.get-started-button {
+    display: flex;
+    margin: auto;
+    /* box-sizing: content-box; */
+    /* background: linear-gradient(90deg, purple, rgb(203, 27, 203)); */
+    /* background: rgb(122, 28, 122); */
+    background: var(--color-base);
+    border: 5px solid rgb(122, 28, 122);
+    color: #fff;
+    font-weight: bold;
+    margin-top: 5rem;
+    padding: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 3.5rem;
+    font-size: 4rem;
+    text-decoration: None;
+    transition: 0.5s;
+}
+.get-started-button:hover {
+    background: linear-gradient(90deg, rgb(113, 89, 200), rgb(65, 65, 179));
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: scale(1.025);
+}
+
+.section-subheading {
+    font-size: 6rem;
+    background: linear-gradient(90deg, purple, rgb(223, 133, 223));
+    -webkit-background-clip: text;
+    color: transparent;
+    background-color: var(--color-base);
+    
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-text {
+    background-color: var(--color-base);
+    margin: 0;
+    height: fit-content;
+
+}
+
+.section-paragraph {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 4rem;
+    background: var(--color-base);
+    margin-bottom: 0;
+    line-height: 5.5rem;
+    font-weight: bold;
+    max-width: 70%;
+}
+
+.section-desc {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    overflow: hidden;
+
+}
+
+.section-img {
+    transform: scale(1);
+    max-height: fit-content;
+    background: var(--color-base);
+    margin-right: 2vw;
+}
+
+.connect-friends-img {
+    transform: scale(1.2);
+    max-height: fit-content;
+    background: var(--color-base);
+    margin-right: 2vw;
+    margin-top: 8vh;
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    0% {opacity: 0; }
+    /* 50% {opacity: 0.75; } */
+    100% {opacity: 1; }
+}
+
+#find-games-desc {
+    animation: flyFromLeft 1.5s;
+}
+
+@keyframes flyFromLeft {
+    0% {transform: translate(-50%)}
+    100% {transform: translate(0%)}
+}
+@keyframes flyFromRight {
+    0% {transform: translate(50%)}
+    100% {transform: translate(0%)}
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    display: inline-block;
+}
+
+motion.div {
+    overflow-x: hidden;
+}
+
+.get-started-bottom {
+    text-align: center;
+    margin-bottom: 10vh;
+}

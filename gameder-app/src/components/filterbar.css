@@ -1,0 +1,150 @@
+.menu-icon-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    background-color: transparent;
+    transition: 0.25s;
+    position: relative;
+}
+
+.menu-icon-title {
+    text-align: center;
+    background-color: rgb(35, 14, 61);
+    margin-top: 0;
+    display: flex;
+    color: #fff;
+    border-radius: 2vh 2vh 0 0;
+    overflow: hidden;
+    height: 6.5vh;
+
+}
+.menu-icon-title h1 {
+    background: linear-gradient(90deg, rgb(152, 135, 210), rgb(103, 103, 239));
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 0.5vh;
+    margin-bottom: 1vh
+}
+
+
+
+.menu-icon-container:hover {
+    /* transform: rotateZ(360deg); */
+    transform: scale(1.05);
+}
+
+.bar {
+    width: 2vw;
+    height: 0.65vh;
+    margin: 0.4vh 0;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    background-color: #fff;
+    border-radius: 0.4vh;
+}
+
+.filter-menu {
+    position: fixed;
+    float: left;
+    margin-top: 10vh;
+    margin-left: 1%;
+    width: 22vw;
+    height: 93vh;
+    margin-bottom: 30vh;
+    background-color: #0e0e22;
+    transform-origin: top left;
+    transition: 0.5s ease;
+    border-radius: 2vh;
+    overflow: hidden;
+}
+
+.closemenu {
+    width: 4.5vw;
+    height: 70vh;
+}
+
+.filter-category {
+    
+    color: #fff;
+    padding-left: 1.5vw;
+    overflow: hidden;
+}
+
+.filter-category h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    overflow: hidden;
+
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.filter-range {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-left-column
+.filter-right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-right-column {
+    margin-right: 2vw;
+    margin-left: 2vw;
+    white-space: nowrap;
+}
+
+.filter-categories {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    /* overflow: scroll; */
+}
+
+.hidden {
+    display: none;
+}
+
+.filter-checkbox-form {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+}
+
+.filter-checkbox-form input {
+    margin-right: 0.5vw;
+}
+
+.filter-button-container {
+    text-align: center;
+}
+
+.filter-button {
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(90deg, rgb(152, 135, 210), rgb(103, 103, 239));
+    background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    border: rgb(122, 28, 122);
+    border-style: solid;
+    border-radius: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-width: 0.5rem;
+}

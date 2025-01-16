@@ -1,0 +1,91 @@
+.multiplayer-container {
+    position: fixed;
+    float: right;
+    right: 10px;
+    margin-top: 10vh;
+    margin-right: 1%;
+    width: 22vw;
+    height: 60vh;
+    margin-bottom: 30vh;
+    background-color: #0e0e22;
+    border-radius: 2vh;
+}
+
+.multiplayer-title {
+    text-align: center;
+    background-color: rgb(35, 14, 61);
+    margin-top: 0;
+    color: #fff;
+    border-radius: 2vh 2vh 0 0;
+    overflow: hidden;
+    height: 6.5vh;
+}
+
+.multiplayer-title h1 {
+    background: linear-gradient(90deg, rgb(152, 135, 210), rgb(103, 103, 239));
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 0.5vh;
+    margin-bottom: 1vh
+}
+
+.start-multiplayer-buttons {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-multiplayer-buttons button {
+    margin-top: 12vh;
+    width: 50%;
+    background: rgb(35, 14, 61);
+    color: white;
+    font-size: 3rem;
+    padding: 1rem 0 1.5rem 0;
+    border-radius: 1.5rem;
+    font-weight: bold;
+}
+
+.chatlog {
+    max-width: 22vw;
+    max-height: 48vh;
+    overflow-y: scroll;
+}
+
+.chatlog::-webkit-scrollbar-track {
+    background: #0e0e22;
+  }
+
+.chatlog ul {
+    list-style-type: none;
+    color: white;
+    max-width: 22vw;
+    word-wrap: break-word;
+}
+
+.send-message {
+    position: absolute;
+    margin-left: auto;
+    text-align: center;
+    bottom: 2rem;
+    display: inline;
+    width: 100%;
+}
+
+.send-message button {
+    background-color: rgb(35, 14, 61);
+    color: white;
+    font-weight: bold;
+    padding: 0 1rem 0 1rem;
+}
+
+#room-code {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#join-feedback {
+    text-align: center;
+    color: #fa5555;
+}

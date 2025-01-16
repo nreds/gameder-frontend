@@ -1,0 +1,55 @@
+.signup-container {
+    height: 80vh;
+    width: 30vw;
+    background: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border-radius: 4rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+}
+
+.signup-container h1 {
+    color: rgb(36, 75, 80);
+    font-size: 8rem;
+}
+
+.signup-container h2 {
+    color: black;
+}
+
+.signup-field-container {
+    width: 70%;
+    
+}
+
+.signup-field {
+    width: 100%;
+    background-color:rgb(195, 217, 236);
+    border-style: solid;
+    border-width: 1px;
+    /* box-shadow: 0 0 2px 2px #7f81b7; */
+}
+
+.signup-button {
+    margin-top: 4rem;
+    font-size: 3rem;
+    padding: 1rem 2rem 1.5rem 2rem;
+    color: black;
+    border-radius: 1rem;
+}
+
+.google-sign-in-button {
+    margin-top: 4rem;
+    font-size: 3rem;
+    padding: 1rem 2rem 1.5rem 2rem;
+    color: black;
+    border-radius: 1rem;
+}
+
+.signup-container p {
+    color: red;
+}
